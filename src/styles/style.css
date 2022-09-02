@@ -1,0 +1,129 @@
+*{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A0EADE;
+}
+
+body{
+    background-color: #1d263b;
+}
+
+.containerSearch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    border-bottom: 1px solid #A0EADE;
+}
+
+.searchText{
+    font-size: 1.7rem;
+}
+
+.searchInput{
+    padding: 5px;
+    height: 50px;
+    width: 20%;
+    border-radius: 5px;
+    color: black;
+}
+
+.makeNotes{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.textForm{
+    text-align: center;
+}
+
+.containerForm{
+    margin: auto;
+    display: flex;
+    justify-content: stretch;
+    padding: 15px;
+    width: 30%;
+    border: 1px solid #A0EADE;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.labelForm{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.inputTitle{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+}
+.descTitle{
+    width: 100%;
+    border-radius: 5px;
+    color: black;
+}
+
+.form{
+    width: 100%;
+}
+
+.submitButton{
+    background-color: #5c6784;
+    padding: 5px;
+    border-radius: 5px;
+    float: right;
+    border: 1px solid #A0EADE;
+}
+
+.submitButton:hover{
+    background-color: #1d263b;
+}
+
+.textNotes{
+    font-size: 1.3rem;
+    border-bottom: 1px solid #A0EADE;
+}
+
+.containerNotes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.note{
+    border: 1px solid #A0EADE;
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.titleNotes{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.notesButton{
+    background-color: #5c6784;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid #A0EADE;
+}
+
+.notesButton:hover{
+    background-color: #1d263b;
+}
+
+.noNotes{
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+}
